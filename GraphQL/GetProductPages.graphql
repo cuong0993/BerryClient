@@ -1,0 +1,18 @@
+query GetProductPages {
+    ProductPage {
+        items {
+            MetaDescription
+            MetaKeywords
+            Name
+            ...Fragment
+            TeaserText
+            PageImage {
+                Url
+            }
+        }
+    }
+}
+
+fragment Fragment on ProductPage {
+  MetaTitle
+}
