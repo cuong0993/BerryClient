@@ -4,7 +4,7 @@
 
 namespace ContentGraphClientNS
 {
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class GetProductPagesResult : global::System.IEquatable<GetProductPagesResult>, IGetProductPagesResult
     {
         public GetProductPagesResult(global::ContentGraphClientNS.IGetProductPages_ProductPage? productPage)
@@ -69,7 +69,7 @@ namespace ContentGraphClientNS
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class GetProductPages_ProductPage_ProductPageOutput : global::System.IEquatable<GetProductPages_ProductPage_ProductPageOutput>, IGetProductPages_ProductPage_ProductPageOutput
     {
         public GetProductPages_ProductPage_ProductPageOutput(global::System.Collections.Generic.IReadOnlyList<global::ContentGraphClientNS.IGetProductPages_ProductPage_Items?>? items)
@@ -140,7 +140,7 @@ namespace ContentGraphClientNS
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class GetProductPages_ProductPage_Items_ProductPage : global::System.IEquatable<GetProductPages_ProductPage_Items_ProductPage>, IGetProductPages_ProductPage_Items_ProductPage
     {
         public GetProductPages_ProductPage_Items_ProductPage(global::System.String? metaDescription, global::System.Collections.Generic.IReadOnlyList<global::System.String?>? metaKeywords, global::System.String? name, global::System.String? metaTitle, global::System.String? teaserText, global::ContentGraphClientNS.IGetProductPages_ProductPage_Items_PageImage? pageImage)
@@ -246,7 +246,7 @@ namespace ContentGraphClientNS
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class GetProductPages_ProductPage_Items_PageImage_ContentModelReference : global::System.IEquatable<GetProductPages_ProductPage_Items_PageImage_ContentModelReference>, IGetProductPages_ProductPage_Items_PageImage_ContentModelReference
     {
         public GetProductPages_ProductPage_Items_PageImage_ContentModelReference(global::System.String? url)
@@ -311,30 +311,30 @@ namespace ContentGraphClientNS
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IGetProductPagesResult
     {
         public global::ContentGraphClientNS.IGetProductPages_ProductPage? ProductPage { get; }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IGetProductPages_ProductPage
     {
         public global::System.Collections.Generic.IReadOnlyList<global::ContentGraphClientNS.IGetProductPages_ProductPage_Items?>? Items { get; }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IGetProductPages_ProductPage_ProductPageOutput : IGetProductPages_ProductPage
     {
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IFragment
     {
         public global::System.String? MetaTitle { get; }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IGetProductPages_ProductPage_Items : IFragment
     {
         public global::System.String? MetaDescription { get; }
@@ -344,18 +344,18 @@ namespace ContentGraphClientNS
         public global::ContentGraphClientNS.IGetProductPages_ProductPage_Items_PageImage? PageImage { get; }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IGetProductPages_ProductPage_Items_ProductPage : IGetProductPages_ProductPage_Items
     {
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IGetProductPages_ProductPage_Items_PageImage
     {
         public global::System.String? Url { get; }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IGetProductPages_ProductPage_Items_PageImage_ContentModelReference : IGetProductPages_ProductPage_Items_PageImage
     {
     }
@@ -386,7 +386,7 @@ namespace ContentGraphClientNS
     /// }
     /// </code>
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class GetProductPagesQueryDocument : global::StrawberryShake.IDocument
     {
         private GetProductPagesQueryDocument()
@@ -643,20 +643,47 @@ namespace ContentGraphClientNS
     /// }
     /// </code>
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class GetProductPagesQuery : global::ContentGraphClientNS.IGetProductPagesQuery
     {
         private readonly global::StrawberryShake.IOperationExecutor<IGetProductPagesResult> _operationExecutor;
+        private readonly global::System.Collections.Immutable.ImmutableArray<global::System.Action<global::StrawberryShake.OperationRequest>> _configure = global::System.Collections.Immutable.ImmutableArray<global::System.Action<global::StrawberryShake.OperationRequest>>.Empty;
         public GetProductPagesQuery(global::StrawberryShake.IOperationExecutor<IGetProductPagesResult> operationExecutor)
         {
             _operationExecutor = operationExecutor ?? throw new global::System.ArgumentNullException(nameof(operationExecutor));
         }
 
+        private GetProductPagesQuery(global::StrawberryShake.IOperationExecutor<IGetProductPagesResult> operationExecutor, global::System.Collections.Immutable.ImmutableArray<global::System.Action<global::StrawberryShake.OperationRequest>> configure)
+        {
+            _operationExecutor = operationExecutor;
+            _configure = configure;
+        }
+
         global::System.Type global::StrawberryShake.IOperationRequestFactory.ResultType => typeof(IGetProductPagesResult);
+
+        public global::ContentGraphClientNS.IGetProductPagesQuery With(global::System.Action<global::StrawberryShake.OperationRequest> configure)
+        {
+            return new global::ContentGraphClientNS.GetProductPagesQuery(_operationExecutor, _configure.Add(configure));
+        }
+
+        public global::ContentGraphClientNS.IGetProductPagesQuery WithRequestUri(global::System.Uri requestUri)
+        {
+            return With(r => r.ContextData["StrawberryShake.Transport.Http.HttpConnection.RequestUri"] = requestUri);
+        }
+
+        public global::ContentGraphClientNS.IGetProductPagesQuery WithHttpClient(global::System.Net.Http.HttpClient httpClient)
+        {
+            return With(r => r.ContextData["StrawberryShake.Transport.Http.HttpConnection.HttpClient"] = httpClient);
+        }
 
         public async global::System.Threading.Tasks.Task<global::StrawberryShake.IOperationResult<IGetProductPagesResult>> ExecuteAsync(global::System.Threading.CancellationToken cancellationToken = default)
         {
             var request = CreateRequest();
+            foreach (var configure in _configure)
+            {
+                configure(request);
+            }
+
             return await _operationExecutor.ExecuteAsync(request, cancellationToken).ConfigureAwait(false);
         }
 
@@ -708,9 +735,12 @@ namespace ContentGraphClientNS
     /// }
     /// </code>
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IGetProductPagesQuery : global::StrawberryShake.IOperationRequestFactory
     {
+        global::ContentGraphClientNS.IGetProductPagesQuery With(global::System.Action<global::StrawberryShake.OperationRequest> configure);
+        global::ContentGraphClientNS.IGetProductPagesQuery WithRequestUri(global::System.Uri requestUri);
+        global::ContentGraphClientNS.IGetProductPagesQuery WithHttpClient(global::System.Net.Http.HttpClient httpClient);
         global::System.Threading.Tasks.Task<global::StrawberryShake.IOperationResult<IGetProductPagesResult>> ExecuteAsync(global::System.Threading.CancellationToken cancellationToken = default);
         global::System.IObservable<global::StrawberryShake.IOperationResult<IGetProductPagesResult>> Watch(global::StrawberryShake.ExecutionStrategy? strategy = null);
     }
@@ -718,7 +748,7 @@ namespace ContentGraphClientNS
     /// <summary>
     /// Represents the ContentGraphClient GraphQL client
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class ContentGraphClient : global::ContentGraphClientNS.IContentGraphClient
     {
         private readonly global::ContentGraphClientNS.IGetProductPagesQuery _getProductPages;
@@ -734,7 +764,7 @@ namespace ContentGraphClientNS
     /// <summary>
     /// Represents the ContentGraphClient GraphQL client
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IContentGraphClient
     {
         global::ContentGraphClientNS.IGetProductPagesQuery GetProductPages { get; }
@@ -743,7 +773,7 @@ namespace ContentGraphClientNS
 
 namespace ContentGraphClientNS.State
 {
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class GetProductPagesResultFactory : global::StrawberryShake.IOperationResultDataFactory<global::ContentGraphClientNS.GetProductPagesResult>
     {
         private readonly global::StrawberryShake.IEntityStore _entityStore;
@@ -851,7 +881,7 @@ namespace ContentGraphClientNS.State
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class GetProductPagesResultInfo : global::StrawberryShake.IOperationResultDataInfo
     {
         private readonly global::System.Collections.Generic.IReadOnlyCollection<global::StrawberryShake.EntityId> _entityIds;
@@ -873,7 +903,7 @@ namespace ContentGraphClientNS.State
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class GetProductPagesBuilder : global::StrawberryShake.OperationResultBuilder<global::ContentGraphClientNS.IGetProductPagesResult>
     {
         private readonly global::StrawberryShake.IEntityStore _entityStore;
@@ -1021,7 +1051,7 @@ namespace ContentGraphClientNS.State
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class ProductPageOutputData
     {
         public ProductPageOutputData(global::System.String __typename, global::System.Collections.Generic.IReadOnlyList<global::ContentGraphClientNS.State.ProductPageData?>? items = default !)
@@ -1034,25 +1064,25 @@ namespace ContentGraphClientNS.State
         public global::System.Collections.Generic.IReadOnlyList<global::ContentGraphClientNS.State.ProductPageData?>? Items { get; }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IIDataData
     {
         global::System.String __typename { get; }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IIContentData
     {
         global::System.String __typename { get; }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial interface IISitePageDataData
     {
         global::System.String __typename { get; }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class ProductPageData : IIDataData, IIContentData, IISitePageDataData
     {
         public ProductPageData(global::System.String __typename, global::System.String? metaDescription = default !, global::System.Collections.Generic.IReadOnlyList<global::System.String?>? metaKeywords = default !, global::System.String? name = default !, global::System.String? metaTitle = default !, global::System.String? teaserText = default !, global::ContentGraphClientNS.State.ContentModelReferenceData? pageImage = default !)
@@ -1075,7 +1105,7 @@ namespace ContentGraphClientNS.State
         public global::ContentGraphClientNS.State.ContentModelReferenceData? PageImage { get; }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class ContentModelReferenceData
     {
         public ContentModelReferenceData(global::System.String __typename, global::System.String? url = default !)
@@ -1088,7 +1118,7 @@ namespace ContentGraphClientNS.State
         public global::System.String? Url { get; }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class ContentGraphClientEntityIdFactory : global::StrawberryShake.IEntityIdSerializer
     {
         private static readonly global::System.Text.Json.JsonWriterOptions _options = new global::System.Text.Json.JsonWriterOptions()
@@ -1111,7 +1141,7 @@ namespace ContentGraphClientNS.State
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public partial class ContentGraphClientStoreAccessor : global::StrawberryShake.StoreAccessor
     {
         public ContentGraphClientStoreAccessor(global::StrawberryShake.IOperationStore operationStore, global::StrawberryShake.IEntityStore entityStore, global::StrawberryShake.IEntityIdSerializer entityIdSerializer, global::System.Collections.Generic.IEnumerable<global::StrawberryShake.IOperationRequestFactory> requestFactories, global::System.Collections.Generic.IEnumerable<global::StrawberryShake.IOperationResultDataFactory> resultDataFactories) : base(operationStore, entityStore, entityIdSerializer, requestFactories, resultDataFactories)
@@ -1122,7 +1152,7 @@ namespace ContentGraphClientNS.State
 
 namespace Microsoft.Extensions.DependencyInjection
 {
-    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCode("StrawberryShake", "15.1.11.0")]
     public static partial class ContentGraphClientServiceCollectionExtensions
     {
         public static global::StrawberryShake.IClientBuilder<global::ContentGraphClientNS.State.ContentGraphClientStoreAccessor> AddContentGraphClient(this global::Microsoft.Extensions.DependencyInjection.IServiceCollection services, global::StrawberryShake.ExecutionStrategy strategy = global::StrawberryShake.ExecutionStrategy.NetworkOnly)
@@ -1135,6 +1165,7 @@ namespace Microsoft.Extensions.DependencyInjection
             });
             global::Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(services, sp => new global::ContentGraphClientNS.State.ContentGraphClientStoreAccessor(global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<global::StrawberryShake.IOperationStore>(global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<ClientServiceProvider>(sp)), global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<global::StrawberryShake.IEntityStore>(global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<ClientServiceProvider>(sp)), global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<global::StrawberryShake.IEntityIdSerializer>(global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<ClientServiceProvider>(sp)), global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<global::System.Collections.Generic.IEnumerable<global::StrawberryShake.IOperationRequestFactory>>(global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<ClientServiceProvider>(sp)), global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<global::System.Collections.Generic.IEnumerable<global::StrawberryShake.IOperationResultDataFactory>>(global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<ClientServiceProvider>(sp))));
             global::Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(services, sp => global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<global::ContentGraphClientNS.GetProductPagesQuery>(global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<ClientServiceProvider>(sp)));
+            global::Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(services, sp => global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<global::ContentGraphClientNS.IGetProductPagesQuery>(global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<ClientServiceProvider>(sp)));
             global::Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(services, sp => global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<global::ContentGraphClientNS.ContentGraphClient>(global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<ClientServiceProvider>(sp)));
             global::Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(services, sp => global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<global::ContentGraphClientNS.IContentGraphClient>(global::Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<ClientServiceProvider>(sp)));
             return new global::StrawberryShake.ClientBuilder<global::ContentGraphClientNS.State.ContentGraphClientStoreAccessor>("ContentGraphClient", services, serviceCollection);
